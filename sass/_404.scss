@@ -1,0 +1,25 @@
+#fourZeroFour {
+    height:100vh;
+    background-color: #0a192f;
+    h1 {
+        font-size:7.5rem;
+        color:#64ffda;
+        @media screen and (max-width:991px) {
+            font-size:6rem;
+        }
+        @media screen and (max-width:576px) {
+            font-size:5rem;
+        }
+    }
+    p {
+        color:#ffffff;
+        font-size:2rem;
+            @media screen and (max-width:991px) {
+                font-size:1.5rem;
+            }
+                
+            @media screen and (max-width:576px) {
+                font-size:1.25rem;
+            }
+    }
+}

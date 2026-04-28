@@ -1,0 +1,25 @@
+//Theme colors
+$primary:       #0a192f;
+$primary-light: #EEF1FC;
+$secondary:     #64ffda;
+$tertiary:      #744473;
+$quaternary:    #4D5C93;
+$light:         #FFFFFF;
+$blue:          #086672;
+
+
+//Fonts and Text
+$font-weight-light:  200;
+$font-weight-normal: 400;
+$font-weight-bold:   700;
+$font-size-base:     1rem;
+$font-family-body: 'Commissioner', sans-serif;
+$font-family-header: 'David Libre', serif;
+
+//Font Size
+$h1-font-size:  $font-size-base * 3;
+$h2-font-size:  $font-size-base * 2.3;
+$h3-font-size:  $font-size-base * 1.40;
+$h4-font-size:  $font-size-base * 1.35;
+$h5-font-size:  $font-size-base * 1.25;
+$h6-font-size:  $font-size-base;

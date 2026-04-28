@@ -1,0 +1,205 @@
+body {
+    font-family: 'Cabin', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Chivo', sans-serif;
+    font-weight:900;
+}
+
+h2 {
+    margin-bottom:1.5rem;
+    border-left: 10px solid #64ffda;
+    padding-left: 10px;
+    line-height:1.3;
+    font-size:2.5rem;
+}
+h3 {
+    font-size:1.3rem;
+}
+
+p {
+    margin-bottom:1.5rem;
+    font-family: 'Cabin', sans-serif;
+    font-size:1.2rem;
+}
+
+:focus-visible {
+    outline: #0a192f auto 1px;
+}
+
+.btn {
+    font-size:1.15rem;
+    
+}
+
+.btn-primary {
+    font-family: 'Chivo', sans-serif;
+    color:#ffffff;
+    background-color: transparent;
+    border: 5px solid #64ffda;
+    font-weight:700;
+    min-width:160px;
+    &:hover, &:active {
+        color: #0a192f !important;
+        background-color: #64ffda !important;
+        border-color: #64ffda !important;
+    }
+    &:focus {
+        box-shadow: 0 0 0 0.1rem #0a192f;
+    }
+}
+
+.btn-secondary {
+    font-family: 'Chivo', sans-serif;
+    color:#64ffda;
+    background-color: transparent;
+    border: 5px solid #ffffff;
+    font-weight:700;
+    min-width:160px;
+    &:hover {
+        color: #0a192f;
+        background-color: #64ffda;
+        border-color: #64ffda;
+    }
+}
+
+.btn-tertiary {
+    font-family: 'Chivo', sans-serif;
+    color:#ffffff;
+    background-color: #0a192f;
+    border: 5px solid #0a192f;
+    font-weight:700;
+    min-width:160px;
+    &:hover {
+        color: #0a192f;
+        background-color: #64ffda;
+        border-color: #64ffda;
+    }
+    &:focus {
+        box-shadow: 0 0 0 0.1rem #0a192f;
+    }
+}
+
+// .btnHovr {
+//     opacity:0;
+//     a {
+//         color:#ffffff;
+//         font-weight:700;
+//         box-shadow: inset 0 0 0 5px #64ffda;
+//         padding: 12px 20px;
+//         background: none;
+//         border: 0;
+//         box-sizing: border-box;
+//         position: relative;
+//         vertical-align: middle;
+//         -webkit-transition: color 0.3s; 
+//         transition: color 0.3s; 
+//         border-radius:0.2rem;
+//         width:fit-content;
+//         &:hover {
+//             text-decoration: none;
+//             color:#64ffda;
+//         }
+//         &:before {
+//             box-sizing: inherit;
+//             content: '';
+//             position: absolute;
+//             width: 100%;
+//             height: 100%;
+//         }
+//         &:after {
+//             box-sizing: inherit;
+//             content: '';
+//             position: absolute;
+//             width: 100%;
+//             height: 100%;
+//         }
+                
+
+//     //start of logo hover effect
+//         .hovr {
+//             // Set up base styles, going to scale instead of animating width/height
+//             &::before,
+//             &::after {
+//                 top: 0;
+//                 left: 0;
+//                 height: 100%;
+//                 width: 100%;
+//                 transform-origin: center; // Ensure scaling is done from the center (expands outwards)
+//             }
+
+                
+//             &::before {
+//                 border-top: 5px solid #ffffff;
+//                 border-bottom: 5px solid #ffffff;
+//                 transform: scale3d(0,1,1); // Shrink only width
+//                 border-radius:0.2rem;
+//             }
+
+//             &::after {
+//                 border-left: 5px solid #ffffff;
+//                 border-right: 5px solid #ffffff;
+//                 transform: scale3d(1,0,1); // Shrink only height
+//                 border-radius:0.2rem;
+//             }
+
+//             &:hover::before,
+//             &:hover::after {
+//                 transform: scale3d(1,1,1); // Show full-size
+//                 transition: transform 0.5s;
+//             }
+//         }
+//         //end of logo hover effect
+//     }
+// }
+
+/* Ninja Form Styling */
+.nf-form-fields-required {
+    display:none;
+}
+
+.nf-form-content {
+    .nf-field-label {
+        font-family: 'Chivo', sans-serif;
+        font-weight:900;
+    }
+    .nf-field-element {
+        input:not([type=button]), textarea {
+            border-radius:0.25rem;
+            background:#ffffff;
+            border:1px solid #0a192f;
+            color: #000000;
+            box-shadow: 5px 14px 28px rgba(134, 151, 168, 0.2);
+        }
+        input[type=button] {
+            font-family: 'Chivo', sans-serif;
+            color:#ffffff;
+            background-color: #0a192f;
+            border: 5px solid #0a192f;
+            font-weight:700;
+            min-width:160px;
+            cursor: pointer;
+            &:hover {
+                color: #0a192f;
+                background-color: #64ffda;
+                border-color: #64ffda;
+            }
+            display: inline-block;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            padding: .375rem .75rem;
+            font-size: 1.15rem;
+            line-height: 1.5;
+            border-radius: .25rem;
+            transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        }
+    }
+    label {
+        font-size:1.25rem !important; 
+    }
+}
