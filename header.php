@@ -76,8 +76,9 @@
 				
 				<div class="col-12 col-md-6 d-flex align-items-center flex-column">
 					<div id="headLeft">
-						<h1 id="fName">Stuart</h1>
-						<h1 id="lName">Gibbs</h1>
+						<h1><span id="fName">Stuart</span><br><span id="lName">Gibbs</span></h1>
+						<!-- <h1 id="fName">Stuart</h1>
+						<h1 id="lName">Gibbs</h1> -->
 						<p class="lead" id="leadTitle">Front-End Web Developer</p>
 						<div class="d-flex d-md-none flex-column svgContainer">
 							<img src="<?php echo site_url(); ?>/wp-content/uploads/2021/07/tech_2.svg" id="svgImgTwo">
